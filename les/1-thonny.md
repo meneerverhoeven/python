@@ -8,14 +8,12 @@ gemaakt voor wie nog nooit eerder heeft geprogrammeerd. Het programma heeft een
 overzichtelijke interface, handige foutmeldingen en een eenvoudige manier om
 code stap voor stap uit te voeren.
 
----
 
 ## Doel van deze les
 
 - [ ] Thonny installeren en openen.  
 - [ ] De basisinterface van Thonny begrijpen.
 
----
 
 ## Installeren
 
@@ -36,7 +34,6 @@ maar één keer te doen.
 > Gebruik je een MacBook? Ga dan op de website met je muis over het kopje
 > **Mac** en klik op de downloadknop daar.
 
----
 
 ## Eerste keer opstarten
 
@@ -48,7 +45,6 @@ Wanneer je Thonny voor het eerst opent, zie je een scherm zoals hieronder:
 - **Onderin (Shell)**: Hier zie je de uitvoer van je code.
 - **Groene knop met pijl**: Hiermee start je de code.
 
----
 
 ## Klaar
 

@@ -4,14 +4,12 @@ Welkom bij je eerste programmeerles in Python! Vandaag ga je je allereerste
 programma schrijven in de programmeertaal Python, met behulp van de
 programmeeromgeving **Thonny**.
 
----
 
 ## Doel van deze les
 
 - [ ] Een Python-programma schrijven en uitvoeren.  
 - [ ] Begrijpen hoe **`print()`** werkt.
 
----
 
 ## Waarom "Hello World"?
 
@@ -29,7 +27,6 @@ Nieuwsgierig hoe dit programma eruitziet in andere talen? Op deze website kun je
 [Hello World in meer dan 600 programmeertalen](https://helloworldcollection.github.io/)
 bekijken!
 
----
 
 ## Opdracht
 
@@ -58,7 +55,6 @@ Je gaat een programma maken dat de tekst `Hello, world!` laat zien op het scherm
    ![2-1-hello-world.png](../media/2-1-hello-world.png)
 </details>
 
----
 
 ## Wat gebeurt hier?
 
@@ -69,9 +65,8 @@ Python een *string*, en strings worden altijd tussen aanhalingstekens gezet. De
 functie `print()` zorgt ervoor dat de tekst zichtbaar wordt in het
 uitvoervenster onderin Thonny.
 
----
 
-## Vervolg
+## Klaar
 
 Pas het programma aan zodat het **jou begroet** met je naam!
 
