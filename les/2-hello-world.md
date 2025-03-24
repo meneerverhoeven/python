@@ -38,6 +38,11 @@ Je gaat een programma maken dat de tekst `Hello, world!` laat zien op het scherm
 4. Sla je bestand op als `hello.py` wanneer hierom wordt gevraagd.
 5. Bekijk de uitvoer onderin je scherm: je zou `Hello, world!` moeten zien!
 
+> [!TIP]
+> Let op dat je de haakjes en aanhalingstekens correct overneemt. Als je hier
+> een fout in maakt, zal er tijdens het uitvoeren van de code een `SyntaxError`
+> te zien zijn.
+
 <details>
    <summary>Klik hier om het gewenste resultaat te zien</summary>
    

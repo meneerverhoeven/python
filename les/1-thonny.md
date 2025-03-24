@@ -12,7 +12,8 @@ code stap voor stap uit te voeren.
 
 ## Installeren
 
-Volg de stappen hieronder om Thonny op je computer te installeren. Dit hoef je maar één keer te doen.
+Volg de stappen hieronder om Thonny op je computer te installeren. Dit hoef je
+maar één keer te doen.
 
 ### Stappen
 
@@ -25,7 +26,8 @@ Volg de stappen hieronder om Thonny op je computer te installeren. Dit hoef je m
 ![../media/1-1-downloaden.png](../media/1-1-downloaden.png)
 
 > [!TIP]
-> Als je een MacBook gebruikt, ga dan met de muis over `Mac` en download het bestand.
+> Gebruik je een MacBook? Ga dan op de website met je muis over het kopje
+> **Mac** en klik op de downloadknop daar.
 
 ---
 
