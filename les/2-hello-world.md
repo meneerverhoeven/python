@@ -4,6 +4,15 @@ Welkom bij je eerste programmeerles in Python! Vandaag ga je je allereerste
 programma schrijven in de programmeertaal Python, met behulp van de
 programmeeromgeving **Thonny**.
 
+---
+
+## Doel van deze les
+
+- [ ] Een Python-programma schrijven en uitvoeren.  
+- [ ] Begrijpen hoe **`print()`** werkt.
+
+---
+
 ## Waarom "Hello World"?
 
 Het eerste programma dat programmeurs vaak maken als ze een nieuwe
@@ -19,7 +28,6 @@ hoeft te begrijpen.
 Nieuwsgierig hoe dit programma eruitziet in andere talen? Op deze website kun je
 [Hello World in meer dan 600 programmeertalen](https://helloworldcollection.github.io/)
 bekijken!
-
 
 ---
 

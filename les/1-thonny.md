@@ -10,6 +10,13 @@ code stap voor stap uit te voeren.
 
 ---
 
+## Doel van deze les
+
+- [ ] Thonny installeren en openen.  
+- [ ] De basisinterface van Thonny begrijpen.
+
+---
+
 ## Installeren
 
 Volg de stappen hieronder om Thonny op je computer te installeren. Dit hoef je
@@ -28,6 +35,18 @@ maar één keer te doen.
 > [!TIP]
 > Gebruik je een MacBook? Ga dan op de website met je muis over het kopje
 > **Mac** en klik op de downloadknop daar.
+
+---
+
+## Eerste keer opstarten
+
+Wanneer je Thonny voor het eerst opent, zie je een scherm zoals hieronder:
+
+![../media/1-2-thonny.png](../media/1-2-thonny.png)
+
+- **Bovenaan**: Hier typ je je code.
+- **Onderin (Shell)**: Hier zie je de uitvoer van je code.
+- **Groene knop met pijl**: Hiermee start je de code.
 
 ---
 
