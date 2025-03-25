@@ -107,9 +107,9 @@ print("Hallo, " + naam)
 ```
 
 <details>
-   <summary>**Voorbeeld Uitvoer**</summary>
-
-    ![3-1-welkom.png](../media/3-1-welkom.png)
+   <summary>Voorbeeld Uitvoer</summary>
+    
+![3-1-welkom.png](../media/3-1-welkom.png)
 </details>
 
 
