@@ -49,9 +49,8 @@ Je gaat een programma maken dat de tekst `Hello, world!` laat zien op het scherm
 > te zien zijn.
 
 <details>
-   <summary>Klik hier om het gewenste resultaat te zien</summary>
+   <summary>**Klik hier om het gewenste resultaat te zien**</summary>
    
-   Als je alles goed gedaan hebt, ziet het er als volgt uit:
    ![2-1-hello-world.png](../media/2-1-hello-world.png)
 </details>
 
