@@ -10,8 +10,12 @@ stap programmeren met Python.
 
 ## Overzicht van de lessen
 
-| Les | Onderwerp                               |
-|-----|-----------------------------------------|
+| Les | Onderwerp                         |
+|-----|-----------------------------------|
 | 1️⃣ | [Thonny installeren](./les/1-thonny.md) |
-| 2️⃣ | [Hello World](./les/2-hello-world.md)   |
-| 3️⃣ | [Variabelen](./les/3-variabelen.md)     |
+| 2️⃣ | [Hello World](./les/2-hello-world.md) |
+| 3️⃣ | [Variabelen](./les/3-variabelen.md) |
+| 4️⃣ | [Datatypes](./les/4-datatypes.md) |
+| 5️⃣ | [Foutcodes](./les/5-foutcodes.md) |
+| 6️⃣ | [Datums en Tijden](./les/6-datums-en-tijden.md) |
+| 7️⃣ | [Voorwaarden](./les/7-voorwaarden.md) |
