@@ -65,3 +65,52 @@ Probeer ook te vermenigvuldigen (met `*`), delen (met `/`), en minnen (met `-`).
 > [!TIP]
 > Gebruik `input()` om de gebruiker te vragen naar deze gegevens. De vraag komt
 > in de shell te staan en daar kan je ook het antwoord typen.
+
+## Variabelen bewerken
+We kunnen variabelen bewerken op meerder manieren. Bij getallen kunnen we bijvoorbeeld:
+- Optellen met `+`
+- Aftrekken met `-`
+- Vermenigvuldigen met `*`
+- Delen met `/`
+- Tot de macht doen met `**`
+
+Dit soort aanpassingen kunnen we ook doen met tekst. We kunnen natuurlijk `+` gebruiken om tekst aan elkaar te plakken.
+Ook hebben we de `*` operator, waarmee we een tekst een aantal keer kunnen herhalen. Daarnaast hebben we ook drie handige functies.
+- `len()`: Hiermee kan je de lengte van een tekst opvragen. Dit is het aantal tekens in de tekst.
+- `upper()`: Hiermee kan je de tekst in hoofdletters zetten.
+- `lower()`: Hiermee kan je de tekst in kleine letters zetten.
+Hieronder zie je een klein voorbeeld van hoe deze functies werken.
+```python
+naam = "Emma"
+print("Hallo " + naam)
+print("Hallo " + naam * 3)
+print("Hallo " + naam.upper())
+print("Hallo " + naam.lower())
+print("De naam is " + str(len(naam)) + " letters")
+```
+Dit geeft als uitvoer het volgende:
+> Hallo Emma
+> Hallo EmmaEmmaEmma
+> Hallo EMMA
+> Hallo emma
+> De naam is 4 letters
+
+Zie je dat de functies `upper()` en `lower()` anders werken dan `len()`? 
+`len()` werkt net zoals `print()` en `input()`. We zetten de tekst die we aan de functie willen geven tussen de haakjes.
+Bij `upper()` en `lower()` zetten we de tekst voor de functie, met een `.` ertussen. 
+Dit is een andere manier van functies aanroepen. We gaan er nu nog niet op in hoe dit werkt, maar onthoud dit verschil goed!
+
+## Opdrachten
+[Maak eerst de opdrachten van Fundament](https://fundament-online.nl/leeromgeving/content.php?paragraaf_id=114950)
+Daarna maak je een programma dat de leeftijd van de gebruiker vraagt. We nemen even aan dat de gebruiker vandaag jarig is.
+Print dan voor ieder jaar oud een keer "Hieperdepiep, hoera!".
+>**Voorbeeld:**
+> 
+> **Invoer:**
+> ```
+> Hoe oud ben je? 5
+> ```
+> **Uitvoer:**
+> ```
+> Hieperdepiep, hoera! Hieperdepiep, hoera! Hieperdepiep, hoera! Hieperdepiep, hoera! Hieperdepiep, hoera! 
+> ```

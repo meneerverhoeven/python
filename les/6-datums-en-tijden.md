@@ -5,25 +5,26 @@ Dit is handig voor het maken van programma's die met tijd en data werken, zoals 
 
 ## Doel van deze les
 - [ ] Werken met datums en tijden in Python.
-- [ ] Het gebruik van de `datetime` module.
-- [ ] Het maken van een timer met de `time` module.
+- [ ] Het gebruik van de `datetime` bibliotheek.
+- [ ] Het maken van een timer met de `time` bibliotheek.
 
 ## Hoe werken datums en tijden in Python?
-Python heeft een ingebouwde module genaamd `datetime` die je helpt om met datums en tijden te werken.
-Met deze module kun je datums en tijden maken, bewerken en formatteren. Het is een aparte module, omdat je het niet altijd nodig hebt.
-Om met modules te werken, moet je ze eerst importeren. Dit doe je met het `import`-commando.
+Python heeft een ingebouwde bibliotheek genaamd `datetime` die je helpt om met datums en tijden te werken.
+'Bibliotheek' is een term die je vaak tegenkomt in programmeren. Het zijn eigenlijk een soort bouwstenen die je kunt gebruiken om niet alles zelf te hoeven ontwikkelen. Het is een verzameling van functies en andere code die je kunt gebruiken in je eigen programma's.
+Met deze bibliotheek kun je datums en tijden maken, bewerken en formatteren. Het is een aparte bibliotheek, omdat je het niet altijd nodig hebt.
+Om met bibliotheken te werken, moet je ze eerst importeren. Dit doe je met het `import`-commando.
 ```python
 import datetime
 ```
-Hierdoor krijg je toegang tot de functionaliteit van de `datetime` module. Deze `import`-regels staan altijd bovenaan je bestand.
-Meestal importeren we alleen het datatype `datetime` uit de module, omdat we dat het meest gebruiken. Hier zit ook de meeste functionaliteit in.
+Hierdoor krijg je toegang tot de functionaliteit van de `datetime` bibliotheek. Deze `import`-regels staan altijd bovenaan je bestand.
+Meestal importeren we alleen het datatype `datetime` uit de bibliotheek, omdat we dat het meest gebruiken. Hier zit ook de meeste functionaliteit in.
 ```python
 from datetime import datetime
 ```
 
-## De `datetime` module
-De `datetime` module heeft verschillende functionaliteiten. Je kan bijvoorbeeld de huidige datum en tijd ophalen, datums en tijden vergelijken, en datums en tijden formatteren.
-Hier zijn een paar voorbeelden van wat je met de `datetime` module kunt doen:
+## De `datetime` bibliotheek
+De `datetime` bibliotheek heeft verschillende functionaliteiten. Je kan bijvoorbeeld de huidige datum en tijd ophalen, datums en tijden vergelijken, en datums en tijden formatteren.
+Hier zijn een paar voorbeelden van wat je met de `datetime` bibliotheek kunt doen:
 ```python
 from datetime import datetime
 # Huidige datum en tijd
@@ -59,10 +60,10 @@ seconden = nu.second
 milliseconden = nu.microsecond
 dag_van_de_week = nu.weekday() # geeft 0 voor maandag, 1 voor dinsdag, etc.
 ```
-Wat je verder allemaal met de `datetime` module kan doen, is te vinden in de [documentatie](https://docs.python.org/3/library/datetime.html#datetime.datetime.min).
+Wat je verder allemaal met de `datetime` bibliotheek kan doen, is te vinden in de [documentatie](https://docs.python.org/3/library/datetime.html#datetime.datetime.min).
 
-## De `time` module
-De `datetime` module is voornamelijk bedoeld om te werken met vaste datums en tijden. De `time` module stelt je in staat om met tijd te werken, zoals timers, stopwatches en pauzes in je code.
+## De `time` bibliotheek
+De `datetime` bibliotheek is voornamelijk bedoeld om te werken met vaste datums en tijden. De `time` bibliotheek stelt je in staat om met tijd te werken, zoals timers, stopwatches en pauzes in je code.
 
 Je kan bijvoorbeeld tellen hoe lang het duurt voor je code om uit te voeren:
 ```python
@@ -87,13 +88,16 @@ print("Dit duurt even...")
 ## Opdracht
 Vraag de gebruiker om hun geboortedatum in te voeren. Zet dit om naar een `datetime` object en 
 **bereken** hun leeftijd in jaren, maanden en dagen. Print het resultaat. Print ook hoe lang het duurt om de code uit te voeren.
-Bedenk goed hoe je de geboortedatum op moet vragen en welke datatype(s) je hiervoor nodig hebt. Bekijk de documentatie van de `datetime` module om te zien wat mogelijk is.
+Bedenk goed hoe je de geboortedatum op moet vragen en welke datatype(s) je hiervoor nodig hebt. Bekijk de documentatie van de `datetime` bibliotheek om te zien wat mogelijk is.
+**Let op:** wanneer je twee datums van elkaar aftrekt, krijg je geen `datetime` object terug, maar een `timedelta` object. Dit is een speciaal datatype dat het verschil tussen twee datums of tijden weergeeft. Je kan hier alleen de `days`, `seconds`, en `microseconds` van ophalen. Je moet dus zelf uitrekenen hoeveel jaren, maanden en dagen dit zijn.
 Voor een extra uitdaging: bepaal hoeveel seconden de gebruiker al leeft.
 > **Voorbeeld:**
 > 
 > **Invoer:**
 > ```
-> Wat is je geboortedatum? 01-10-2005
+> In welk jaar ben je geboren? 2005
+> In welke maand ben je geboren? 10
+> Op welke dag van de maand ben je geboren? 1
 > ```
 > 
 > **Uitvoer:**
