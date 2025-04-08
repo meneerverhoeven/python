@@ -19,3 +19,4 @@ stap programmeren met Python.
 | 5️⃣ | [Foutcodes](./les/5-foutcodes.md) |
 | 6️⃣ | [Datums en Tijden](./les/6-datums-en-tijden.md) |
 | 7️⃣ | [Voorwaarden](./les/7-voorwaarden.md) |
+| 8️⃣ | [Iteraties met while](./les/8-while-loops.md) |

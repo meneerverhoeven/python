@@ -117,6 +117,21 @@ if leeftijd < 12:
 ```
 In dit voorbeeld worden alle voorwaarden gecontroleerd. Dit betekent dat er "Je bent volwassen." en "Je bent een tiener." wordt geprint. Dit is niet wat we willen.
 
+### LET OP
+Een `if`, `elif` of `else` moet altijd met een dubbele punt eindigen. Dit is heel belangrijk, want zonder deze dubbele punt werkt de code niet.
+Met de dubbele punt geef je aan dat er een nieuwe codeblok begint. Dit is de code die uitgevoerd wordt als de voorwaarde waar is en heeft een extra tab inspringing.
+
+Bij `if` en `elif` **moeten** er voorwaarden gegeven worden tussen de `if`/`elif` en de dubbele punt. Dit zijn de voorwaarden die gecontroleerd worden.
+De vaste structuur is dus:
+```python
+if voorwaarde:
+    # Doe iets
+elif andere_voorwaarde:
+    # Doe iets anders
+else:
+    # Doe de uitzondering
+```
+
 ## Opdracht 2
 Bol.com geeft je gratis verzending vanaf €20. Maak een programma dat de gebruiker vraagt om het bedrag van hun bestelling. Controleer of ze gratis verzending hebben of niet. Print een samenvatting van hun bestelling.
 > **Voorbeeld:**
