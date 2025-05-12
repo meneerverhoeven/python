@@ -34,7 +34,7 @@ print(naam.upper())  # Geeft: EMMA
 print(naam.lower())  # Geeft: emma
 ```
 
-Sommige methoden komen uit modules. Bijvoorbeeld: `datetime.now()` komt uit de `datetime`-module en is voor het datatype `datetime`:
+Sommige methoden komen uit bibliotheken. Bijvoorbeeld: `datetime.now()` komt uit de `datetime`-bibliotheek en is voor het datatype `datetime`:
 
 ```python
 from datetime import datetime
@@ -50,6 +50,14 @@ Soms wil je je eigen functie maken. Dat doe je zo:
 def begroet(naam):
     print("Hallo", naam)
 ```
+
+- `def` is kort voor definitie. Hiermee geven we aan dat we een functie gaan maken
+- Daarna volgt de naam van de functie, deze heeft dezelfde regels voor de naam als een variabel. Hiermee roep je ook de functie aan, bijvoorbeeld `begroet("Emma")`
+- Daarna volgen haakjes, met daar tussen de parameters. In het voorbeeld `begroet("Emma")` is `"Emma"` het variabel dat we doorgeven voor de parameter `naam`
+- Als laatste op de eerste regel is een dubbele punt, zoals ook bij if-statements en loops
+- De code van een functie moet daarna worden ingesprongen, net zoals bij if-statements en loops
+
+
 
 Je gebruikt de functie door hem aan te roepen:
 
